@@ -4,17 +4,16 @@
     --colTeal: #07889B;
     --colPowder: #66B9BF;
   }
-nav > .nav.nav-tabs{
 
+nav > .nav.nav-tabs {
     border: none;
-      color:#fff;
-      background:#272e38;
-      border-radius:0;
-  
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
   }
+
   nav > div a.nav-item.nav-link,
-  nav > div a.nav-item.nav-link.active
-  {
+  nav > div a.nav-item.nav-link.active {
     border: none;
       padding: 18px 25px;
       color:#fff;
@@ -22,29 +21,26 @@ nav > .nav.nav-tabs{
       border-radius:0;
   }
   
-  nav > div a.nav-item.nav-link.active:after
-   {
+  nav > div a.nav-item.nav-link.active:after {
     content: "";
     position: relative;
-    bottom: -60px;
-    left: -10%;
+    bottom: -55px;
+    left: -30%;
     border: 15px solid transparent;
-    border-top-color: var(--colTangerine) ;
+    border-top-color: var(--colTeal) ;
   }
-  .tab-content{
+  .tab-content {
     background: #fdfdfd;
       line-height: 25px;
-      border: 1px solid #ddd;
-      border-top:5px solid var(--colTangerine);
-      border-bottom:5px solid var(--colTangerine);
+      border-top:5px solid var(--colTeal);
+      border-bottom:5px solid var(--colTeal);
       padding:30px 25px;
   }
   
   nav > div a.nav-item.nav-link:hover,
-  nav > div a.nav-item.nav-link:focus
-  {
+  nav > div a.nav-item.nav-link:focus {
     border: none;
-      background: var(--colTangerine);
+      background: var(--colTeal);
       color:#fff;
       border-radius:0;
       transition:background 0.20s linear;
